@@ -19,10 +19,9 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-        working-directory: test
     - name: Run tests
       run: mvn clean test
-      working-directory: test
+     
       
     
    
